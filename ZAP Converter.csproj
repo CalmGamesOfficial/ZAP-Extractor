@@ -8,7 +8,7 @@
     <Authors>Pau Garcia Chiner</Authors>
     <Company>Calm Games</Company>
     <Description>Convierte archivos .ZAP a .CSV para poder leerlos mas comodamente entre otros usos</Description>
-    <ApplicationIcon>ZAP-Icon.ico</ApplicationIcon>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
 
 </Project>
