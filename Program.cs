@@ -67,7 +67,11 @@ namespace ZAP_Converter
             }
             catch (IOException e)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("IO Error: {0}", e.GetType().Name);
+                Console.ResetColor();
+                Console.WriteLine("Pulse Intro para salir...");
+                Console.ReadKey();
                 return;
             }
             Console.ForegroundColor = ConsoleColor.Yellow;
